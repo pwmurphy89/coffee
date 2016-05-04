@@ -14,6 +14,11 @@ img {
   padding-top: 20px;
 }
 
+/* line 12, ../../compass/sass/_base.scss */
+.registration {
+  margin-top: 200px;
+}
+
 /* line 1, ../../compass/sass/_home.scss */
 .navbar {
   background-color: #284741;
@@ -25,7 +30,7 @@ img {
 
 /* line 8, ../../compass/sass/_home.scss */
 .betterWay {
-  margin-top: 125px;
+  margin-top: 155px;
   height: 200px;
   padding: 30px;
   color: white;
@@ -37,7 +42,7 @@ img {
   color: black;
   font-size: 50px;
   height: 100px;
-  background-color: gray;
+  background-color: #E2D0D0;
   padding-top: 10px;
 }
 
@@ -110,5 +115,38 @@ img {
 /* line 78, ../../compass/sass/_home.scss */
 #get-started button {
   background-color: #3C763D;
+  color: white;
+}
+
+/* line 1, ../../compass/sass/_options.scss */
+.container-fluid.options {
+  margin-top: 155px;
+}
+/* line 3, ../../compass/sass/_options.scss */
+.container-fluid.options ul.steps-bar {
+  list-style-type: none;
+}
+/* line 5, ../../compass/sass/_options.scss */
+.container-fluid.options ul.steps-bar li {
+  float: left;
+}
+/* line 8, ../../compass/sass/_options.scss */
+.container-fluid.options ul.steps-bar li p {
+  float: right;
+}
+
+/* line 20, ../../compass/sass/_options.scss */
+div.home-img {
+  width: 65px;
+  height: 65px;
+  background-image: url("../images/coffee-images/menu-steps.png");
+}
+
+/* line 25, ../../compass/sass/_options.scss */
+.options-bar {
+  padding-top: 50px;
+}
+/* line 27, ../../compass/sass/_options.scss */
+.options-bar h4 {
   color: white;
 }

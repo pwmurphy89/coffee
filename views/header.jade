@@ -1,0 +1,21 @@
+nav.navbar.navbar-default.navbar-fixed-top
+	.container.col-sm-12
+		.col-sm-9.text-left
+			a(href='/')
+				img(src='../images/dc_roasters.png')
+		if(username)
+			.col-sm-3.text-right.options-bar
+				.col-sm-3.text-right
+					h4 Hi #{username}! 
+				.col-sm-3.text-right
+					a(href='/')
+						button.btn.btn-primary(type="submit") LOGOUT
+
+		else
+			.col-sm-3.text-right.options-bar
+				.col-sm-3.text-right
+					a(href='/login')
+						button.btn.btn-primary(type="submit") Log In
+				.col-sm-3.text-right
+					a(href='/register')
+						button.btn.btn-primary(type="submit") Register				
